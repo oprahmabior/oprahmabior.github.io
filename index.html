@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Anniversary My LOVE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Page 1: Happy Anniversary -->
+    <div id="page1" class="container active-page">
+        <h1>Happy Anniversary, My Love i made this for only you so this going to be a secrect portal for my love!</h1>
+        <img src="imagesfortheweb/baby.jpg" alt="Couple Image" class="main-image">
+        <div class="hearts"></div>
+        <p>I LOVE YOU AND I HOPE YOU LOVE IT.</p>
+        <button onclick="showPage('page2')" class="pressme">hi click</button>
+    </div>
+
+    <!-- Page 2: Our Journey -->
+    <div id="page2" class="container">
+        <h1>ITS A YEAR OF ME AND YOU AND MORE YRS.<p>
+            i want to thank you for everything that you have done for me my love , you've kissed my wounds,taught me to be a better person, loved sides of me which i know are really hard to love .i myself found them hard to love but you closed your eyes and chose to love me regardless of each and everything 
+            <p>
+                I remember  the moment i fell in love with you like it was yesterday , i remember you thanking an askari after he opened a gate to let us in ,i really couldnt understand how kind of a person you're or comprehend the fact that you're that kind i found my heart accepting you without any hesitation or what my love. All my life i had no one but you came and changed that for me 365 days ago 
+                you came and showed me that you cared not like everyone else, ohh how to thank God  for you!? I cry most times about how lucky i am and how the heavens blessed me  or what could have made God think i'm deserving of you . i look at you and see you holding our baby , kissing me in the morning before work,us travelling together,see you succeding in your life , see us on a friday in your house giving you a gentle massage till you softly sleep on my hands and feel safe around me 
+                I just want to say this has been the best 365 days of all my life with you in it . YOU'RE THE REASON I BELIEVE GOD LOVES ME 
+            </p>
+        </p></h1>
+        <img src="imagesfortheweb/picone.jpg" alt="Journey Image" class="main-image">
+        <div class="hearts"></div>
+        <p>I ADORE YOU MY LOVER.</p>
+        <button onclick="showPage('page3')" class="pressme">press me</button>
+    </div>
+
+    <!-- Page 3: Forever Yours -->
+    <div id="page3" class="container">
+        <h1>THIS IS FOR THE LITTLE YOU</h1>
+        <div class="hearts"></div>
+        <p>Hiii  this is Oprah and i've heard alot about you  and what i would love to tell you is you're enough more than enough,you're wise ,you're the strongest person i know you've gone through so much yet your heart hasnt changed . I want to tell you older you is such a strong and kind person . You've made it to 20 btw even though you didnt  plan that. 
+           <p>
+            You've met someone who is willing to kill for , die for you and choose you over her ownself .<p>She wants to let you know that you're more than what she expected you paased her expectations</p>
+           <p> She's here with aims of loving you healing each and every wound nomatter how deep even the ones that are hard to find</p>
+           <p> She blushes everytime she speaks to you she hopes that one day you get on one knee for her</p>
+            <p> wants to have your kids</p>
+            And most in mportantly she wants YOU 
+            <p>She's me Oprah</p>
+            I LOVE YOU
+           </p> </p>
+        <button onclick="showPage('page1')" class="pressme">here baby</button>
+    </div>
+
+    <script>
+        function showPage(pageId) {
+            document.querySelectorAll('.container').forEach(page => {
+                page.classList.remove('active-page');
+            });
+            document.getElementById(pageId).classList.add('active-page');
+        }
+    </script>
+</body>
+</html>
+
